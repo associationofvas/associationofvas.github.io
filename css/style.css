@@ -600,3 +600,7 @@ section#contact :-ms-input-placeholder {
 input {
   margin-bottom: 30px;
 }
+
+#bloglink:focus {
+  color: white;
+}
