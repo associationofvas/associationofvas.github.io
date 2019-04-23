@@ -38,7 +38,7 @@ function initializeClock(id, endtime) {
 }
 
 var d1 = new Date(); //"now"
-var d2 = new Date("2019/04/30")  // some date
+var d2 = new Date("2019/04/30 00:00:00 -0400")  // some date
 var diff = Math.abs(d1-d2);  // difference in milliseconds
 
 var deadline = new Date(Date.parse(new Date()) + diff);
