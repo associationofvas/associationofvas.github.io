@@ -34,12 +34,12 @@ function initializeClock(id, endtime) {
   }
 
   updateClock();
-  var timeinterval = setInterval(updateClock, 1000);
+  var timeinterval = setInterval(updateClock, 0);
 }
 
 var d1 = new Date(); //"now"
-var d2 = new Date("2019/04/30 23:59:59 -0400")  // some date
-var diff = Math.abs(d1-d2);  // difference in milliseconds
+var d2 = new Date("2019/05/30 23:59:59 -0400")  // some date
+var diff = Math.max(0, d2-d1);  // difference in milliseconds
 
 var deadline = new Date(Date.parse(new Date()) + diff);
 initializeClock('clockdiv', deadline);
