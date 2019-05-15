@@ -264,7 +264,7 @@ html {
 }
 
 .service-item a i:hover {
-  color: #01235D;
+  color: #BD9129;
 }
 
 #hk:hover {
@@ -525,7 +525,7 @@ html {
 
 .grow:hover {
   transform: scale(1.1);
-  background-color: #fed136;
+  /* background-color: #fed136; */
 }
 
 section#contact {
