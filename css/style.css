@@ -604,3 +604,11 @@ input {
 #staywhite:focus {
   color: white;
 }
+
+#staywhite:hover {
+  color: #BD9129;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #BD9129;
+}
